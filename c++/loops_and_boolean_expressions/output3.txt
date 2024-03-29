@@ -1,0 +1,2 @@
+Please enter the candidate's information (enter 'X' to exit)
+Gender:  x
