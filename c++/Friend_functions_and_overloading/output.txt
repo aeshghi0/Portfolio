@@ -1,0 +1,86 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ g++ *.cpp
+In file included from main.cpp:1:
+./MyHeader.h:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+bash-3.2$ ./a.out Ali Eshghi
+/****************************************************************
+ * Perimeter and Area of shapes comparing using
+ * overloading frined functions and class methods
+ * ______________________________________________________________
+ * This program prompts the user to input information for a
+ * shape of square and a shape of triangle. then using the
+ * virtual methods and inheritance of the classes, calculates
+ * the perimeter and area of those shapes, then using the
+ * frined class functions and class methods, the program
+ * compares the area and perimeter of the squares with the
+ * area and perimeter of the triangle. then outputs if any
+ * attributes of these shapes were equal, then again promts the
+ * user how many units they want to increase the length of both
+ * shapes and again print outs the attribute of the shapes
+ *
+ * ______________________________________________________________
+ * INPUT: square length, triangle sides
+ *
+ * OUTPUT: prints out the perimeter and area of the both shapes
+ * 		   based on the information that the user put in, the
+ * 		   result of the comparison of the attributes, and the
+ * 		   new attributes after the modification
+ *
+ ****************************************************************/
+First Name : Ali
+Last Name : Eshghi
+Second Character of First Name : l
+Second Character of Last Name : s
+
+Enter the length of 1st Square:5
+Perimeter of Square is 20
+Area of Square is 25
+Enter the three sides of 1st triangle:1 4 6
+Perimeter of Triangle is 11
+Area of Triangle is nan
+
+
+Enter the length and width of 2nd square:5 
+Perimeter of Square is 20
+Area of Square is 25
+Enter the three sides of 2nd triangle:2 4 5
+Perimeter of Triangle is 11
+Area of Triangle is 3.79967
+
+
+Enter the length and width of 3rd square:4
+Perimeter of Square is 16
+Area of Square is 16
+Enter the three sides of 3rd triangle:3 4 5
+Perimeter of Triangle is 12
+Area of Triangle is 6
+
+Square 1 and Triangle 1 Perimeter Check : Unequal
+
+Square 2 and Triangle 2 Perimeter Check : Unequal
+
+Square 1 and Rectangle 2 Area Check : Equal
+
+Square 2 and Rectangle 3 Area Check : Unequal
+
+Increase length of Square 1 by how much : 5
+Length increased by 5 units
+
+After doing r2 = r2 + 8 :
+Length increased by 8 units
+
+After doing cin>>r3 :
+Enter length : 3
+Area of Square is 9
+Area of Square is 9
+
+After doing cout<<r3 :
+length of Square : 3
+Perimeter of Square is 12
+Area of Rectangle is 27

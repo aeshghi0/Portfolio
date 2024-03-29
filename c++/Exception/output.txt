@@ -1,0 +1,71 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ g++ *.cpp
+In file included from main.cpp:10:
+./MyHeader.h:138:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+bash-3.2$ ./a.out Ali Eshghi
+/****************************************************************
+ * Perimeter and Area of shapes comparing using
+ * overloading frined functions and class methods
+ * ______________________________________________________________
+ * This program prompts the user to input information for a
+ * shape of square and a shape of triangle. then using the
+ * virtual methods and inheritance of the classes, calculates
+ * the perimeter and area of those shapes, then using the
+ * frined class functions and class methods, the program
+ * compares the area and perimeter of the squares with the
+ * area and perimeter of the triangle. then outputs if any
+ * attributes of these shapes were equal, then again promts the
+ * user how many units they want to increase the length of both
+ * shapes and again print outs the attribute of the shapes
+ *
+ *Also, using the try/catch blocks, the program determines if the
+ *input numbers by the user are correct or no.
+ * ______________________________________________________________
+ * INPUT: square length, triangle sides
+ *
+ * OUTPUT: prints out the perimeter and area of the both shapes
+ * 		   based on the information that the user put in, the
+ * 		   result of the comparison of the attributes, and the
+ * 		   new attributes after the modification
+ *
+ ****************************************************************/
+
+First Name : Ali
+Last Name : Eshghi
+Second Character of First Name : l
+Second Character of Last Name : s
+
+TRY BLOCK #1: 
+
+Enter the length of 1st Square:-1
+
+The side length: -1 is too small.
+Please enter a value greater than 0.
+
+
+
+Enter the length of 1st Square:55
+
+The side length: 55 is too bog.
+Please enter a value smaller than 50.
+
+
+
+Enter the length of 1st Square:3
+
+<<Valid side length input>>
+
+Perimeter of Square is 12
+Area of Square is 9
+Enter the three sides of 1st triangle:
+
+
+//this is just part of the output,just because 
+//you said don't print out the output for assignment 
+//6 and I assumed both of these outputs are going to be
+//identical so I didn't copy and paste the whole output

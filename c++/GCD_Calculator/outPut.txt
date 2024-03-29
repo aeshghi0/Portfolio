@@ -1,0 +1,19 @@
+***************************************************
+*  PROGRAMMED BY : Ali Eshghi & Elsa Micklin	   
+*  CLASS         : CS1B
+*  SECTION       : MW: 7:30p - 9:50p
+*  LAB #3        : Greatest Common Divisor
+***************************************************
+
+***************************************************
+*  PROGRAMMED BY : Ali Eshghi & Elsa Micklin	   
+*  CLASS         : CS1B
+*  SECTION       : MW: 7:30p - 9:50p
+*  LAB #3        : Greatest Common Divisor
+***************************************************
+
+
+The GCD for 74 & 32 = 2
+The GCD for 99 & 30 = 3
+The GCD for 48 & 18 = 6
+The GCD for 12 & 0 = 12

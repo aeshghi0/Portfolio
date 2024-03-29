@@ -1,0 +1,178 @@
+Script started on Wed Jul 22 17:34:31 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Wed Jul 22 17:34:33 PDT 2020
+bash-3.2$ ls -l
+total 88
+-rwxr-xr-x@ 1 alieshghi  staff  27140 Jul 21 16:28 hw12
+-rw-r--r--@ 1 alieshghi  staff   5429 Jul 22 17:25 hw12.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 22 17:34 hw12.scr
+-rw-r--r--@ 1 alieshghi  staff    320 Jul 21 02:26 makefile
+bash-3.2$ mak all[K[K[K[Ke all
+c++     hw12.cpp   -o hw12
+bash-3.2$ ls -l
+total 88
+-rwxr-xr-x  1 alieshghi  staff  27140 Jul 22 17:34 hw12
+-rw-r--r--@ 1 alieshghi  staff   5429 Jul 22 17:25 hw12.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 22 17:34 hw12.scr
+-rw-r--r--@ 1 alieshghi  staff    320 Jul 21 02:26 makefile
+bash-3.2$ ./hw12
+
+************************************** 
+*           Running HW12             * 
+*      Programmed by Ali Eshghi      * 
+*      CS1C July 16th, 2020          * 
+************************************** 
+
+Testing Queue implementation on string data type: 
+<The element a has been inserted successfully>
+------------------------------------
+printing Queue: a 
+------------------------------------
+<The element b has been inserted successfully>
+------------------------------------
+printing Queue: a b 
+------------------------------------
+<The element c has been inserted successfully>
+------------------------------------
+printing Queue: a b c 
+------------------------------------
+<The element d has been inserted successfully>
+------------------------------------
+printing Queue: a b c d 
+------------------------------------
+<The element e has been inserted successfully>
+------------------------------------
+printing Queue: a b c d e 
+------------------------------------
+<The element f has been inserted successfully>
+------------------------------------
+printing Queue: a b c d e f 
+------------------------------------
+<Element a was removed from the list>
+------------------------------------
+printing Queue: a b c d e 
+------------------------------------
+<Element b was removed from the list>
+------------------------------------
+printing Queue: a b c d 
+------------------------------------
+<Element c was removed from the list>
+------------------------------------
+printing Queue: a b c 
+------------------------------------
+<Element d was removed from the list>
+------------------------------------
+printing Queue: a b 
+------------------------------------
+<The element g has been inserted successfully>
+------------------------------------
+printing Queue: a b c 
+------------------------------------
+<The element h has been inserted successfully>
+------------------------------------
+printing Queue: h b c d 
+------------------------------------
+<The element i has been inserted successfully>
+------------------------------------
+printing Queue: h i c d e 
+------------------------------------
+<The element j has been inserted successfully>
+------------------------------------
+printing Queue: h i j d e f 
+------------------------------------
+<The element k has been inserted successfully>
+------------------------------------
+printing Queue: h i j k e f g 
+------------------------------------
+<Element e was removed from the list>
+------------------------------------
+printing Queue: h i j k e f 
+------------------------------------
+<Element f was removed from the list>
+------------------------------------
+printing Queue: h i j k e 
+------------------------------------
+<Element g was removed from the list>
+------------------------------------
+printing Queue: h i j k 
+------------------------------------
+
+
+Testing Queue implementation on float data type: 
+<The element 1 has been inserted successfully>
+------------------------------------
+printing Queue: 1 
+------------------------------------
+<The element 2 has been inserted successfully>
+------------------------------------
+printing Queue: 1 2 
+------------------------------------
+<The element 3 has been inserted successfully>
+------------------------------------
+printing Queue: 1 2 3 
+------------------------------------
+<The element 4 has been inserted successfully>
+------------------------------------
+printing Queue: 1 2 3 4 
+------------------------------------
+<The element 5 has been inserted successfully>
+------------------------------------
+printing Queue: 1 2 3 4 5 
+------------------------------------
+<The element 6 has been inserted successfully>
+------------------------------------
+printing Queue: 1 2 3 4 5 6 
+------------------------------------
+<Element 1 was removed from the list>
+------------------------------------
+printing Queue: 1 2 3 4 5 
+------------------------------------
+<Element 2 was removed from the list>
+------------------------------------
+printing Queue: 1 2 3 4 
+------------------------------------
+<Element 3 was removed from the list>
+------------------------------------
+printing Queue: 1 2 3 
+------------------------------------
+<Element 4 was removed from the list>
+------------------------------------
+printing Queue: 1 2 
+------------------------------------
+<The element 7 has been inserted successfully>
+------------------------------------
+printing Queue: 1 2 3 
+------------------------------------
+<The element 8 has been inserted successfully>
+------------------------------------
+printing Queue: 8 2 3 4 
+------------------------------------
+<The element 9 has been inserted successfully>
+------------------------------------
+printing Queue: 8 9 3 4 5 
+------------------------------------
+<The element 10 has been inserted successfully>
+------------------------------------
+printing Queue: 8 9 10 4 5 6 
+------------------------------------
+<The element 11 has been inserted successfully>
+<Element 5 was removed from the list>
+------------------------------------
+printing Queue: 8 9 10 11 5 6 
+------------------------------------
+<Element 6 was removed from the list>
+------------------------------------
+printing Queue: 8 9 10 11 5 
+------------------------------------
+<Element 7 was removed from the list>
+------------------------------------
+printing Queue: 8 9 10 11 
+------------------------------------
+bash-3.2$ exit
+exit
+
+Script done on Wed Jul 22 17:35:22 2020

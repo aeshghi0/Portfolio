@@ -1,0 +1,78 @@
+
+********************************************************
+* PROGRAMMED BY : Amirarsalan Valipour & ALi Eshghi
+* CLASS         : CS1B
+* SECTION       : MW: 5p - 7p
+* ASSIGNMENT #1 : Random Number Generator
+********************************************************
+
+Generating RANDOM integers...
+30
+6
+43
+8
+80
+26
+35
+89
+70
+43
+39
+48
+55
+13
+95
+82
+
+Sorting...
+6
+8
+13
+26
+30
+35
+39
+43
+43
+48
+55
+70
+80
+82
+89
+
+Reversing Each Integer: 
+6
+8
+31
+62
+3
+53
+93
+34
+34
+84
+55
+7
+8
+28
+98
+
+
+Total of Each Integers: 
+6
+8
+4
+8
+3
+8
+12
+7
+7
+12
+10
+7
+8
+10
+17
+

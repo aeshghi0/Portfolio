@@ -1,0 +1,14 @@
+Enter the package weight(enter <0> to quit): 2
+Enter the package weight(enter <0> to quit): 35
+Enter the package weight(enter <0> to quit): 12
+Enter the package weight(enter <0> to quit): 1
+Enter the package weight(enter <0> to quit): 17
+Enter the package weight(enter <0> to quit): 4
+Enter the package weight(enter <0> to quit): 0
+
+
+2 package(s) under 2 lbs.
+2 package(s) between 3-12 lbs.
+1 package(s) between 13-20 lbs.
+1 package(s) between 21-40 lbs.
+The total shipping price is $57.50

@@ -1,0 +1,26 @@
+What day is today?: monday
+today is MONDAY
+
+What day is today?: tuesday
+today is TUESDAY
+
+What day is today?: wednesday
+today is WEDNESDAY
+
+What day is today?: thursday
+today is THURSDAY
+
+What day is today?: friday
+today is FRIDAY
+
+What day is today?: saturday
+today is SATURDAY
+
+What day is today?: sunday
+today is SUNDAY
+
+What day is today?: no day
+**** Invalid day input! ****
+
+today is INVALID
+

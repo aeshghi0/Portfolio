@@ -1,0 +1,15 @@
+BigBoy
+3
+STRAIGHT
+
+Mr.East
+7
+CORKSCREW
+
+Peggy
+1
+CURL UP
+
+Chuchu
+9
+CURL RIGHT

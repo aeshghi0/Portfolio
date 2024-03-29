@@ -1,0 +1,14 @@
+Fluffy
+1
+FINE
+White
+
+La La
+3
+LONG
+Black
+
+Maa
+7
+MEDIUM
+Brown

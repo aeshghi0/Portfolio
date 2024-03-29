@@ -1,0 +1,46 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ g++ *.cpp
+bash-3.2$ ./a.out Ali Eshghi
+/****************************************************************
+ * Perimeter and Area of shapes comparing using
+ * overloading frined functions and class methods
+ * ______________________________________________________________
+ * This program prompts the user to input information for a
+ * shape of square and a shape of triangle. then using the
+ * virtual methods and inheritance of the classes, calculates
+ * the perimeter and area of those shapes, then using the
+ * frined class functions and class methods, the program
+ * compares the area and perimeter of the squares with the
+ * area and perimeter of the triangle. then outputs if any
+ * attributes of these shapes were equal, then again promts the
+ * user how many units they want to increase the length of both
+ * shapes and again print outs the attribute of the shapes
+ *
+ * ______________________________________________________________
+ * INPUT: square length, triangle sides
+ *
+ * OUTPUT: prints out the perimeter and area of the both shapes
+ * 		   based on the information that the user put in, the
+ * 		   result of the comparison of the attributes, and the
+ * 		   new attributes after the modification
+ *
+ ****************************************************************/
+
+First name: Ali
+Last name: Eshghi
+Second character of first name is: l
+Second character of last name is:  s
+For square:
+Enter length: 5
+Perimeter: 20
+Area: 25
+
+For triangle:
+Enter length of side A: 5
+Enter length of side B: 12
+Enter length of side C: 13
+Perimeter: 30
+Area: 30

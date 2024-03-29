@@ -1,0 +1,36 @@
+/************************************************************
+* Recursion
+* _________________________________________________________
+* This program has a pre-saved alphabet string data. the 
+* program promts the user for two integers, the starting 
+* index and the ending index. then the program reverses the 
+* alphabet letter character of the index in the string from
+* the starting index to the ending index (user input). the 
+* program does that two times and the third time the program 
+* has presaved data on the starting and ending index so that 
+* the whole string gets reversed
+* _________________________________________________________
+* INPUT: u; k; - input for the start and end index
+*
+* OUTPUT: FIRST - the string with start to end index characters
+* 		   reversed
+*		   SECOND - the string with start to end index characters
+* 		   reversed
+* 		   THIRD - the whole string reversed
+*
+************************************************************/
+
+The string input as default (Alphabet):
+abcdefghijklmnopqrstuvwxyz
+enter starting index:12
+enter ending index:19
+
+your modified string is abcdefghijksrqponmltuvwxyz
+
+enter starting index:5
+enter ending index:23
+
+your modified string is abcdwvutsrqponmlkjihgfexyz
+
+
+your modified string is zyxwvutsrqponmlkjihgfedcba

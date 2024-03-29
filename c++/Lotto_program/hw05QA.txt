@@ -1,0 +1,30 @@
+1- standard template library, is set of C++ template classes to provide common programming data structures and functions such as lists, stacks, array, etc.
+ it is a library of container classes, algorithms, and iterators. It is  generalized library and so, its components are parameterized. 
+Vectors are sequence containers representing arrays that can change in size. They use contiguous storage locations for their elements, which means
+ that they can be accessed using offsets on regular pointers to its elements. And just as efficiently as in arrays.
+
+2- resize() function changes the size of the vector. If the new size is bigger than the vector size, the program adds the elements to the vector.
+ But if the new size is smaller than the vector size, the program, destroys the extra elements.
+
+3-array containers in STL provides us the implementation of static array, though it is rarely used in competitive programming as its static in nature
+but we’ll still discuss array container cause it provides some member functions and non-member functions which gives it an edge over the array defined
+classically with object types and array size. But the built-in arrays are the collections of items stored at contiguous memory locations and elements
+can be accessed randomly using offsets of pointers to its elements. And vectors are sequence containers representing arrays that can change in size.
+Just like array, vectors use the contiguous storage locations for their elements, which means that their elements can also be accessed using offsets of 
+pointers and reference to its elements. But unlike arrays, their size can be changed dynamically.
+
+4- reserve() function is request that the vector capacity be at least enough to contain n elements. If n is greater than the vector capacity, the function
+causes the container to reallocate its storage increasing its capacity to n or greater. In all other cases the function call does not cause a reallocation 
+and the vector capacity is not affected. This function has no effect on the vector size and cannot alter its elements. But resize() changes the size of the 
+vector and even if n is smaller than the vector size, the program destroys the extra elements
+
+5- begin() returns an iterator pointing to the first element in the vector.
+    end() returns as iterator pointing to the last element in the vector.
+
+6- the push_back() function adds the item to the end of the vector and as n example we can put that part of the code for this hw when we are adding the numbers 
+to the winners vector.
+    //put first count of values in the winner lottos
+    for(int i=0; i < count; i++)
+    {
+        winners.push_back(temp.at(i));
+    }

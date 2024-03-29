@@ -1,0 +1,69 @@
+/****************************************************************
+ * Queuing and deleting the objects to the stacks
+ * ______________________________________________________________
+ * using the templates and the functions, the user can queue or
+ * delete objects from the head of the stacks and delete from the
+ * end of the stack. Also, using the class function, the program
+ * determines if the stack is empty or full
+ * ______________________________________________________________
+ * INPUT: N/A
+ *
+ * OUTPUT: outputs step by step of adding the objects the objects
+ * 		   or deleting the objects from the stack, also outputs
+ * 		   if the
+ *
+****************************************************************/
+
+Inserted element a
+Inserted element b
+Inserted element c
+Inserted element d
+Inserted element e
+Inserted element f
+Removed element a
+Removed element b
+Removed element c
+Inserted element g
+Inserted element h
+Inserted element i
+Inserted element j
+Removed element d
+Removed element e
+Removed element f
+Removed element g
+Removed element h
+Removed element i
+Removed element j
+Queue is empty.....
+Front of queue: Queue is empty...
+
+Inserted element 1
+Inserted element 2
+Inserted element 3
+Inserted element 4
+Inserted element 5
+Inserted element 6
+Removed element 1
+Removed element 2
+Inserted element 7
+Inserted element 8
+Inserted element 9
+Removed element 3
+Removed element 4
+Front of queue: 5
+
+Inserted element 1.1
+Inserted element 2.1
+Inserted element 3.3
+Inserted element 4.4
+Inserted element 5.5
+Inserted element 6.6
+Removed element 1.1
+Inserted element 7.7
+Inserted element 8.8
+Removed element 2.1
+Removed element 3.3
+Removed element 4.4
+Removed element 5.5
+Removed element 6.6
+Front of queue: 7.7

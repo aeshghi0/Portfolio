@@ -1,0 +1,46 @@
+Script started on Thu Jul 23 15:57:22 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Thu Jul 23 15:57:25 PDT 2020
+bash-3.2$ ls -l
+total 120
+-rw-r--r--@ 1 alieshghi  staff   2815 Jul 22 16:52 DLinkedList.h
+-rw-r--r--@ 1 alieshghi  staff    685 Jul 22 16:52 Dnode.h
+-rw-r--r--@ 1 alieshghi  staff   6931 Jul 22 16:52 LinkedList.h
+-rwxr-xr-x@ 1 alieshghi  staff  26028 Jul 23 15:56 hw14
+-rw-r--r--@ 1 alieshghi  staff    746 Jul 22 16:52 hw14.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 23 15:57 hw14.scr
+-rw-r--r--@ 1 alieshghi  staff    658 Jul 23 15:56 makefile
+-rw-r--r--@ 1 alieshghi  staff    568 Jul 22 16:52 node.h
+bash-3.2$ make all
+make: Nothing to be done for `all'.
+bash-3.2$ ls -l
+total 120
+-rw-r--r--@ 1 alieshghi  staff   2815 Jul 22 16:52 DLinkedList.h
+-rw-r--r--@ 1 alieshghi  staff    685 Jul 22 16:52 Dnode.h
+-rw-r--r--@ 1 alieshghi  staff   6931 Jul 22 16:52 LinkedList.h
+-rwxr-xr-x@ 1 alieshghi  staff  26028 Jul 23 15:56 hw14
+-rw-r--r--@ 1 alieshghi  staff    746 Jul 22 16:52 hw14.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 23 15:57 hw14.scr
+-rw-r--r--@ 1 alieshghi  staff    658 Jul 23 15:56 makefile
+-rw-r--r--@ 1 alieshghi  staff    568 Jul 22 16:52 node.h
+bash-3.2$ ./hw14
+Current List: 88 78 62 143 60 
+
+Current List: 88 78 62 143 60 
+
+Current List: 88 78 62 143 60 
+Current List: 78 62 143 60 
+Current List: 78 62 143 
+Current List: 78 62 111 143 
+Current List: 78 222 62 111 143 
+Current List: 62 78 111 143 222 
+Current List: 222 143 111 78 62 
+
+bash-3.2$ exit [K
+exit
+
+Script done on Thu Jul 23 15:57:46 2020

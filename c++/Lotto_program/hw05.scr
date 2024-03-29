@@ -1,0 +1,37 @@
+Script started on Tue Jun 23 23:32:22 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Tue Jun 23 23:32:29 PDT 2020
+bash-3.2$ ls -l
+total 200
+-rwxr-xr-x  1 alieshghi  staff  63488 Jun 23 15:54 hw05
+-rw-r--r--@ 1 alieshghi  staff   1556 Jun 23 23:31 hw05.cpp
+drwxr-xr-x@ 3 alieshghi  staff     96 Jun 23 15:46 hw05.dSYM
+-rw-r--r--@ 1 alieshghi  staff    589 Jun 23 15:29 hw05.h
+-rw-r--r--  1 alieshghi  staff     43 Jun 23 23:32 hw05.scr
+-rw-r--r--  1 alieshghi  staff  14848 Jun 23 15:54 hw05.tar
+-rw-r--r--@ 1 alieshghi  staff   1279 Jun 23 15:09 lotto.cpp
+-rw-r--r--@ 1 alieshghi  staff    357 Jun 23 17:24 makefile
+bash-3.2$ make all
+g++  -std=c++14 -Wall -g lotto.cpp hw05.cpp -o hw05
+bash-3.2$ ls -l
+total 216
+-rwxr-xr-x  1 alieshghi  staff  72520 Jun 23 23:32 hw05
+-rw-r--r--@ 1 alieshghi  staff   1556 Jun 23 23:31 hw05.cpp
+drwxr-xr-x@ 3 alieshghi  staff     96 Jun 23 15:46 hw05.dSYM
+-rw-r--r--@ 1 alieshghi  staff    589 Jun 23 15:29 hw05.h
+-rw-r--r--  1 alieshghi  staff     43 Jun 23 23:32 hw05.scr
+-rw-r--r--  1 alieshghi  staff  14848 Jun 23 15:54 hw05.tar
+-rw-r--r--@ 1 alieshghi  staff   1279 Jun 23 15:09 lotto.cpp
+-rw-r--r--@ 1 alieshghi  staff    357 Jun 23 17:24 makefile
+bash-3.2$ ./hw05
+The maximum number passed is 51
+The count numbers passed is  6
+10 29 35 39 47 48 
+bash-3.2$ exit
+exit
+
+Script done on Tue Jun 23 23:32:57 2020

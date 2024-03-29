@@ -1,0 +1,12 @@
+***************************************************
+*  PROGRAMMED BY : Ali Eshghi
+*  CLASS         : CS1B
+*  SECTION       : MW: 7:30p - 9:50p
+*  LAB #3        : Searching Linked list
+***************************************************
+
+
+Search by actor for  found:
+
+MOVIE #  TITLE                                           YEAR RATING  GENRE             ALT GENRE         LEAD ACTOR          SUPPORTING ACTOR    
+------- ------------------------------------------------ ---- ------ ----------------- ----------------- ------------------- ------------------- 

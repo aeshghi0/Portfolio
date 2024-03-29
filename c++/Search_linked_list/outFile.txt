@@ -1,0 +1,10 @@
+
+********************************************************
+* PROGRAMMED BY : Ali Eshghi
+* CLASS         : CS1B
+* SECTION       : MW: 7:30p - 9:50p
+* ASSIGNMENT #5 : OOP - DVD Movie List
+********************************************************
+
+Which input file to use:  inFile.txt
+Which output file to use: outFile.txt

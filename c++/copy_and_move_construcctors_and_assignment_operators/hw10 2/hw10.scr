@@ -1,0 +1,64 @@
+Script started on Tue Jul 14 17:24:25 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ date
+Tue Jul 14 17:24:28 PDT 2020
+bash-3.2$ ls 0l[K[K-l
+total 88
+-rwxr-xr-x  1 alieshghi  staff  25224 Jul 14 16:42 hw10
+-rw-r--r--@ 1 alieshghi  staff   7567 Jul 14 17:23 hw10.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 14 17:24 hw10.scr
+-rw-r--r--@ 1 alieshghi  staff    337 Jul 14 16:41 makefile
+bash-3.2$ make all
+c++     hw10.cpp   -o hw10
+[1mhw10.cpp:36:18: [0m[0;1;35mwarning: [0m[1mrvalue references are a C++11 extension
+      [-Wc++11-extensions][0m
+    vector(vector&&);                             // move constructor: d...
+[0;1;32m                 ^
+[0m[1mhw10.cpp:45:29: [0m[0;1;35mwarning: [0m[1mrvalue references are a C++11 extension
+      [-Wc++11-extensions][0m
+    vector& operator=(vector&&);                  // move assignment
+[0;1;32m                            ^
+[0m[1mhw10.cpp:96:22: [0m[0;1;35mwarning: [0m[1mrvalue references are a C++11 extension
+      [-Wc++11-extensions][0m
+vector::vector(vector&& source) // move constructor
+[0;1;32m                     ^
+[0m[1mhw10.cpp:129:33: [0m[0;1;35mwarning: [0m[1mrvalue references are a C++11 extension
+      [-Wc++11-extensions][0m
+vector& vector::operator=(vector&& rhs) // move assignment
+[0;1;32m                                ^
+[0m4 warnings generated.
+bash-3.2$ ls -l
+total 88
+-rwxr-xr-x  1 alieshghi  staff  25224 Jul 14 17:24 hw10
+-rw-r--r--@ 1 alieshghi  staff   7567 Jul 14 17:23 hw10.cpp
+-rw-r--r--  1 alieshghi  staff     43 Jul 14 17:24 hw10.scr
+-rw-r--r--@ 1 alieshghi  staff    337 Jul 14 16:41 makefile
+bash-3.2$ ./hw10
+
+************************************** 
+*           Running HW10             * 
+*      Programmed by Ali Eshghi      * 
+*      CS1C July 10 2020             * 
+************************************** 
+
+v  double values: 0 100.5 0 
+v2 double values (after copy, set): 25 100.5 0 
+
+v3 double values: 0 0 3.3 
+v4 double values: 0 0 4.4 0 
+v3 double values (after assignment): 0 0 4.4 0 
+
+fill up v6 with five doubles
+1
+2
+3
+4
+5
+v6 double values: 1 2 3 4 5 
+bash-3.2$ exit
+exit
+
+Script done on Tue Jul 14 17:24:58 2020

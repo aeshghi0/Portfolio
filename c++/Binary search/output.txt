@@ -1,0 +1,51 @@
+******************************************************
+*  PROGRAMMED BY : Ali Eshghi & Amirarsalan Valipour
+*  CLASS         : CS1B
+*  SECTION       : MW: 7:30p - 9:50p
+*  LAB #5        : Finary Search
+******************************************************
+
+index #0: 4
+index #1: 1
+index #2: 7
+index #3: 12
+index #4: 8
+index #5: 13
+index #6: 9
+index #7: 21
+
+Enter an integer to search for: 9
+The integer 9 was found in index #6.
+
+Enter an integer to search for: 6
+6 was not found!
+
+Enter an integer to search for: 21
+The integer 21 was found in index #7.
+
+Enter an integer to search for: 4
+The integer 4 was found in index #0.
+
+Performing Insertion sort
+
+index #0: 1
+index #1: 4
+index #2: 7
+index #3: 8
+index #4: 9
+index #5: 12
+index #6: 13
+index #7: 21
+
+Enter an integer to search for: 12
+The integer 12 was found in index #5.
+
+Enter an integer to search for: 21
+The integer 21 was found in index #7.
+
+Enter an integer to search for: 2
+2 was not found!
+
+Enter an integer to search for: 1
+The integer 1 was found in index #0.
+

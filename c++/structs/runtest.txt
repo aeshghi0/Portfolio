@@ -1,0 +1,103 @@
+***************************************************
+*  PROGRAMMED BY : Ali Eshghi & Jonathan Aguirre
+*  CLASS         : CS1B
+*  SECTION       : MW: 7:30p - 9:50p
+*  LAB #6        : Structs
+***************************************************
+
+What input file would you like to use?  inFile.txt
+What output file would you like to use? outFile.txt
+
+MENU OPTIONS
+
+1 - Find the larger balance
+2 - Find the smaller balance
+3 - Obtain sum of all balances
+4 - Obtain the average of all balances
+5 - Find Person
+0 - Exit
+Enter an option (0 to exit) : 1
+
+Finding the larger balance...
+
+
+MENU OPTIONS
+
+1 - Find the larger balance
+2 - Find the smaller balance
+3 - Obtain sum of all balances
+4 - Obtain the average of all balances
+5 - Find Person
+0 - Exit
+Enter an option (0 to exit) : 2
+Finding the smaller balance...
+
+
+MENU OPTIONS
+
+1 - Find the larger balance
+2 - Find the smaller balance
+3 - Obtain sum of all balances
+4 - Obtain the average of all balances
+5 - Find Person
+0 - Exit
+Enter an option (0 to exit) : 3
+Obtaining the sum of all balances...
+
+
+MENU OPTIONS
+
+1 - Find the larger balance
+2 - Find the smaller balance
+3 - Obtain sum of all balances
+4 - Obtain the average of all balances
+5 - Find Person
+0 - Exit
+Enter an option (0 to exit) : 4
+Obtaining the average of all balances...
+
+
+MENU OPTIONS
+
+1 - Find the larger balance
+2 - Find the smaller balance
+3 - Obtain sum of all balances
+4 - Obtain the average of all balances
+5 - Find Person
+0 - Exit
+Enter an option (0 to exit) : 5
+
+Who do you want to search for (enter done to exit) :  Steve Woolston
+Found.
+
+
+
+Who do you want to search for (enter done to exit) :  Jacques Rousseau
+Jacques Rousseau was not found.
+
+
+
+Who do you want to search for (enter done to exit) :  Chris Carroll
+Found.
+
+
+
+Who do you want to search for (enter done to exit) :  Lisa Covi
+Found.
+
+
+
+Who do you want to search for (enter done to exit) :  Florence Rousseau
+Found.
+
+
+
+Who do you want to search for (enter done to exit) :  Frankie Lane
+Frankie Lane was not found.
+
+
+
+Who do you want to search for (enter done to exit) :  done
+
+
+Thank you for using my program.

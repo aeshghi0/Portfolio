@@ -1,0 +1,69 @@
+Script started on Wed Jul 15 09:33:57 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ datee[K
+Wed Jul 15 09:34:03 PDT 2020
+bash-3.2$ ls -l
+total 328
+-rw-r--r--@ 1 alieshghi  staff    1242 Jun 30 11:37 MyHeader.h
+-rwxr-xr-x  1 alieshghi  staff   39728 Jul 15 09:33 hw07
+-rw-r--r--@ 1 alieshghi  staff    3751 Jul 14 17:53 hw07.cpp
+drwxr-xr-x@ 3 alieshghi  staff      96 Jun 30 11:49 hw07.dSYM
+-rw-r--r--  1 alieshghi  staff      43 Jul 15 09:33 hw07.scr
+-rw-r--r--@ 1 alieshghi  staff    2243 Jul 15 09:32 inventoryManagement.cpp
+-rw-r--r--@ 1 alieshghi  staff    1343 Jul 14 17:47 inventoryManagement.h
+-rw-r--r--  1 alieshghi  staff  102020 Jul 15 09:33 inventoryManagement.o
+-rw-r--r--@ 1 alieshghi  staff     485 Jun 30 11:50 makefile
+bash-3.2$ make all
+make: Nothing to be done for `all'.
+bash-3.2$ ls -l
+total 328
+-rw-r--r--@ 1 alieshghi  staff    1242 Jun 30 11:37 MyHeader.h
+-rwxr-xr-x  1 alieshghi  staff   39728 Jul 15 09:33 hw07
+-rw-r--r--@ 1 alieshghi  staff    3751 Jul 14 17:53 hw07.cpp
+drwxr-xr-x@ 3 alieshghi  staff      96 Jun 30 11:49 hw07.dSYM
+-rw-r--r--  1 alieshghi  staff      43 Jul 15 09:33 hw07.scr
+-rw-r--r--@ 1 alieshghi  staff    2243 Jul 15 09:32 inventoryManagement.cpp
+-rw-r--r--@ 1 alieshghi  staff    1343 Jul 14 17:47 inventoryManagement.h
+-rw-r--r--  1 alieshghi  staff  102020 Jul 15 09:33 inventoryManagement.o
+-rw-r--r--@ 1 alieshghi  staff     485 Jun 30 11:50 makefile
+bash-3.2$ ./hw07
+Constructor is called
+Inventory before marks purchase:
+Name of equipment        Cost    Quantity
+Nike basketball shoes    $145.99    22
+Under Armor T-shirt      $29.99     33
+Brooks running shoe      $111.44    11
+Asics running shoe       $165.88    20
+Nike Shorts              $45.77     77
+
+
+Secondary Inventory list(Using copy constructor): 
+
+
+*** Purchase bill *** 
+Item No. Name of equipment	Cost		Quantity
+1. Nike basketball shoes	$145.99		2 
+2. Under Armour T-shirt		$29.99		3 
+3. Nike shorts			$45.77		4 
+4. Brooks running shoes		$111.44		1 
+ Total Cost: $676.47
+Tax(8.25%) $55.8088
+Total cost $732.279
+
+
+
+Inventory after marks purchase:
+Name of equipment        Cost    Quantity
+Nike basketball shoes    $145.99    6
+Under Armor T-shirt      $29.99     33
+Brooks running shoe      $111.44    11
+Asics running shoe       $165.88    20
+Nike Shorts              $45.77     77
+Freeing memory...
+bash-3.2$ exit
+exit
+
+Script done on Wed Jul 15 09:34:18 2020

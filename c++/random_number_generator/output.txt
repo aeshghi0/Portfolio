@@ -1,0 +1,9 @@
+Random Number: 310
+Reverse the digits of the number: 13
+Sum the digits of the number: 4
+Triple of the number: 930
+10 numbers stored in the array
+The array has been sorted successfully
+The array has been written in the file successfully
+The file has been read as strings successfully
+8,20,21,22,49,55,56,72,83,88,8,20,21,22,49,55,56,72,83,88,
