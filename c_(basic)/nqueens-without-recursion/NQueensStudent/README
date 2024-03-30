@@ -1,0 +1,21 @@
+## NQueens Program
+  This program uses Stack to solve the classic backtracking
+  of placing n queens on a n*n chess board the way that none
+  of the queens be able to attack each other 
+
+**GENERATING EXECUTABLE:**
+A make file is created and provided for the program that with running the command 'make' in the terminal the object files are created, and then the object files are used to create executable "nqueens" program
+
+**USAGE:**  ./nqueens <input_file> <output_file>
+
+**Note:**
+* The program needs both the input file and output file to run, otherwise it'll throw an error
+
+* The input file is used to read in the data such as: the size of the chess board, that is equal to the number of queens to be placed on the chess board, as well as the colomn and row number of the squares for the initial queens (if any) to be placed on the chess board
+(The first entry of a line in input file is read as the size of the chess board, and the other entries are the colomn and row of a queen to be placed on the chess board)
+
+* After executing the program, if there was any solution to placing n queens on an n*n board, the program will output the colomns and rows of all the queens placed on the board (the initial queens as well as the remaining quees to be placed).
+
+* If there was no solution to the chess set up, the program will output *No Solution*.
+
+* As long as there are lines in the input file with valid data entry, the program will try to solve the problem with the set up of that line for the chess board; and will output the solution as a new line in the output file.

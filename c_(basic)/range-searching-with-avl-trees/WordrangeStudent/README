@@ -1,0 +1,23 @@
+## AVL and Range queries problem
+
+  This program is developed based on a self balancing binary search tree that stores several numbers of string
+  entries, and then we are able to use that tree to look up any search, insertion, and deletion from the tree in 
+  fast speed of O(long n) where n is the number of nodes in the tree. Although the purpose of this program is to 
+  obtain range queries between two strings such as Str1 <= node->str <= str2.
+
+**GENERATING EXECUTABLE:**
+A make file is created and provided for the program that with running the command 'make' in the terminal the object files are created,
+ and then the object files are used to create executable "wordrange" program
+
+**USAGE:**  ./wordrange <input_file> <output_file>
+
+**Note:**
+* The program needs both the input file and output file to run, otherwise it'll throw an error
+
+* The input file containes the operation followed by the string that is to be operated on;
+  * if the operation is "i", the program inserts the following string in the same line as a new node to the tree
+  * if the operation is "r", the program first checks if there are two strings present in front of the operation in the same line. If so, then the program will look 
+    for range queries between the first string and second string. It is assumed that always string1 < string2.
+
+* As long as there are still input lines in the input file, the program runs and tries to execute the command. the program will read in from input file and if applicable 
+  does the operation, until it reaches the end of the file.
